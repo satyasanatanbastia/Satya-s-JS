@@ -1,0 +1,40 @@
+what is js
+:- js is a programming laguage
+
+ctrl+~(esc below)=terminal
+
+ecma script -- js version
+
+VARIABLE--  reserve some memory in memory
+
+var, let, const
+
+"use strict";  //it is treat all js code as newr version
+
+ data tyype 
+
+ 1. premetive
+string, boolean, number (2 to the power 53), Big Int,
+
+Null -- it is a standalone value 
+ex-- let pot = null some case it null is neeed because when error come in system it show null insted of anything loke 0 or other 
+
+similar to undefined are variable are declare but nothing assign here 
+ex--- let pot1 ;
+
+2. non premetive
+
+object
+
+
+CONVERSION & OPERATION
+
+*] typeof function is used to check the data type of the variable
+it can be use in both way like use method typeof()  or only use typeof
+
+*] In JavaScript, Number, String, and Boolean start with a capital letter because they are special functions (called constructors) used to create objects for numbers, strings, and booleans.
+
+However:
+
+You don’t need these constructors for everyday use.
+The lowercase versions (number, string, boolean) are the simple, regular data types you use most of the time.
