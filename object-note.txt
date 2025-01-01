@@ -38,3 +38,40 @@ However:
 
 You don’t need these constructors for everyday use.
 The lowercase versions (number, string, boolean) are the simple, regular data types you use most of the time.
+
+
+
+let isLoggedIn = "1"
+// console.log(isLoggedIn)
+// let a1 = Boolean(isLoggedIn)
+// console.log(a1)//true
+
+In JavaScript:
+Falsy Values: Only undefined, null, false, 0, NaN, and "" (empty string) are considered falsy.
+All other values are considered truthy, including non-empty strings like "1".
+*)Since "1" is a non-empty string, it is considered truthy.
+*)When passed to the Boolean() constructor, it converts the truthy value into true.
+
+---------OPERATION---------
+is js perspective string is more priority than other data type
+ChatGPT said:
+ChatGPT
+Yes, from JavaScript's perspective, strings take priority in operations involving the + operator. This means that if one operand is a string, JavaScript will try to convert the other operand to a string and perform string concatenation instead of arithmetic addition.
+
+Why Strings Have Priority?
+The + operator serves two purposes:
+Addition for numbers.
+Concatenation for strings.
+When there is ambiguity (one operand is a string, the other is a number), JavaScript prioritizes string concatenation because:
+It's safer to convert numbers to strings than to try arithmetic on non-numeric strings (which can result in NaN for other operators like *, -, /).
+
+console.log("1"+2)//12
+console.log(1+'2')//12
+console.log("1"+"2")//12
+console.log("1"+2 +3)//123
+console.log(1 +2 +'3')//33
+
+
+Summary:
+In operations involving strings and other types, strings win because concatenation is the default behavior.
+If you want to enforce numeric addition, you must explicitly convert strings to numbers using functions like parseInt, parseFloat, or the Number() constructor.
