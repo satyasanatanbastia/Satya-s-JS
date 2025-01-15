@@ -27,3 +27,4 @@ const satya="33abc"
 console.log(typeof (satya))
 const satya_1 = Number(satya)
 console.log(typeof (satya_1))
+

@@ -71,7 +71,93 @@ console.log("1"+"2")//12
 console.log("1"+2 +3)//123
 console.log(1 +2 +'3')//33
 
+if string in first operation will held according to string
+if num in first then operation will held accordingto num its depend
 
 Summary:
 In operations involving strings and other types, strings win because concatenation is the default behavior.
 If you want to enforce numeric addition, you must explicitly convert strings to numbers using functions like parseInt, parseFloat, or the Number() constructor.
+
+
+*} always follow the comparision is do in between both similar data type object.
+
+
+=== (strict equal to) is use to check the valuse of both variable object as well as check the boths  data type.
+
+
+summery
+
+data type category is based on there how it store in memory and there accessibility
+1. Premetive:-
+Primitive data types are immutable (cannot be changed) and stored by value.
+(string, Number, Boolean, Null, undefined,symbol, bigint)7 type
+2. NON Premetive:-
+Non-primitive types are mutable and stored as references.
+{reference type}(array, object, functions)
+
+
+**} Dynamic Typing
+JavaScript is dynamically typed, meaning a variable can hold any type of value and change types during runtime:
+
+
+Call by Value
+Definition: When you pass a primitive data type (like Number, String, Boolean, etc.) to a function, only the value of the variable is passed. Any changes made to the parameter inside the function do not affect the original variable.
+
+Behavior: The function works with a copy of the value, not the actual variable.
+
+function changeValue(val) {
+  val = 42;  // Modifying the copy
+}
+
+let num = 10;
+changeValue(num);
+
+console.log(num); // Output: 10 (Original value remains unchanged)
+
+
+*} Call by Reference
+Definition: When you pass a non-primitive data type (like Objects or Arrays) to a function, a reference to the original memory location is passed. Changes made to the parameter inside the function affect the original object or array.
+
+Behavior: The function works with the reference to the original object, not a copy.
+
+function modifyObject(obj) {
+  obj.name = "Alice";  // Modifying the original object
+}
+
+let user = { name: "John" };
+modifyObject(user);
+
+console.log(user.name); // Output: Alice (Original object is modified)
+
+
+
+--------------Stack and Heap memory in javascript---------
+
+
+stack memory use in premetive data type
+heap memory used in non-premetive data type
+
+ stack-->
+
+//stack memory program
+// let a=33
+// let b=a
+// console.log(a)
+// console.log(b)
+//  a=43
+// console.log(a)
+// console.log(b)
+// console.log(a)
+
+
+//heap memory program
+// let abc={
+//     email:"satya@s",
+//     name:"satyab"
+// }
+
+// console.log(abc)
+// let bbc =abc
+// bbc.name="satya sanatan bastia"
+// console.log(abc)
+// console.log(bbc)
