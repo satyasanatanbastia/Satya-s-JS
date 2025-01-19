@@ -161,3 +161,18 @@ heap memory used in non-premetive data type
 // bbc.name="satya sanatan bastia"
 // console.log(abc)
 // console.log(bbc)
+
+
+
+// Strings in Javascript
+
+const name="satya"
+const age=43
+console.log(`my name is ${name} and my age is ${age}`)  //this the best way to write or declare string reson this method of declaration is allow or give free hand to modify and adding extra functionality easily 
+
+// another way to declare String
+const myName = new String('Satya sanatan bastia')
+console.log(myName)
+console.log(myName[4])
+string have also folow the rule of indexing here the first element is in index starting from 0
+
