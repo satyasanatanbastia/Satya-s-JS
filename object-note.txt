@@ -176,3 +176,44 @@ console.log(myName)
 console.log(myName[4])
 string have also folow the rule of indexing here the first element is in index starting from 0
 
+Number and Maths in Javascript :-
+
+const score = 2000
+console.log (score)//normal declaration of number 
+
+const balance = new Number(1475)
+console.log(balance)// creates a Number object, which is an instance of the Number wrapper class. 
+Here, balance is not just the value 1475; it's an object with additional capabilities.
+const balance = new Number(1475)
+// console.log(balance) 
+// console.log(balance.toString()) //to string convert entire data type to string format
+
+// console.log(balance.toString().length)// length is use how many charecter present in string
+
+// console.log(balance.toFixed(1)); // toFixed & it is accept under there parenthesis called argument number is used to format a number to a fixed number of decimal places. It returns the number as a string, rounded to the specified number of decimals.
+
+// //it also work like this
+// let num = 123.456;
+
+// // Round to 2 decimal places
+// console.log(num.toFixed(2)); // "123.46"
+
+// // Round to 0 decimal places
+// console.log(num.toFixed(0)); // "123"
+
+*}math,Date in JS are object 
+
+The new keyword in JavaScript is used to create instances of objects that are defined by constructors. It is commonly used with built-in JavaScript object constructors (like Date or Array) or with custom constructor functions or classes.
+
+
+in date month start in 0 index
+--------------------------------------------------------------------
+*****************ARRAY IN JS********************
+
+*}array is a object in js 
+*}array object can use to store multiple/mix datatype element or both one date type elements in a single variable 
+
+*}array index start from 0
+
+*}Shallow Copy
+
