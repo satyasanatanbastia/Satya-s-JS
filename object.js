@@ -103,3 +103,17 @@
 
 
 
+//OBJECT DESTRUCTUREING
+
+// const course={
+//     name:"fffff",
+//     price:44,
+//     courseInstructor:"Satya"
+// }
+// const {price}=course
+// console.log(price)
+
+// const {courseInstructor:instructor}=course
+// console.log(instructor)
+
+
