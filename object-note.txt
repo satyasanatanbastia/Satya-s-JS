@@ -217,3 +217,10 @@ in date month start in 0 index
 
 *}Shallow Copy
 
+_____________________________________________
+
+*}in js variable is most powerfull ,it can hold many kind of thing 
+
+*} always use const for normal or any test perspective variable declaration
+
+*} 
