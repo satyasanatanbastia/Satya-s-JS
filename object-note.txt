@@ -222,5 +222,11 @@ _____________________________________________
 *}in js variable is most powerfull ,it can hold many kind of thing 
 
 *} always use const for normal or any test perspective variable declaration
+-------------------------------------------------
+*} JavaScript ek Single Threaded, Synchronous Language hai.
 
-*} 
+Matlab?
+👉 Ek time pe ek hi kaam karega
+👉 Line-by-line code execute hota hai (Top to Bottom)
+👉 Jo line pehle hai wo pehle chalegi, baad wali baad me
+
